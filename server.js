@@ -35,10 +35,6 @@ mongoose.connect(uri, connectionParams)
     console.log('Failed to connect to MongoDB', err)
 })
 
-app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'index.html'))
-})
-
 app.listen(port, () => {
     console.log('App is listening on port', port)
 })
