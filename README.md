@@ -1,4 +1,4 @@
-# JSON data parser & CRUD app
+# CRUD app JSON
 
 This application is very similiar to [JSONplaceholder](https://jsonplaceholder.typicode.com/).
 
